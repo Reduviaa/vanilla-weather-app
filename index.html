@@ -18,7 +18,7 @@
     <div class="container">
       <div class="weather-app">
         <div class="row">
-          <div class="col">
+          <div class="col-8">
             <h1>London</h1>
             <ul>
               <li id="day">Wednesday <span id="time">05:20</span></li>
@@ -28,14 +28,21 @@
               </li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col-4">
             <div>
-              <i class="wi wi-day-cloudy display-6"></i>
-              <span>19°C|°F</span>
-              <div>Feels like: <span id="feels-like">19</span>°C</div>
+              <i class="wi wi-day-cloudy display-6" id="icon"></i>
+              <span id="temperature">19</span><span id="units">°C|°F</span>
+              <div class="sky">Cloudy</div>
             </div>
           </div>
         </div>
+        <hr />
+        <small>
+          <a href="https://github.com/Reduviaa/vanilla-weather-app"
+            >Open-sourse code</a
+          >
+          by Magdalena Tadeja
+        </small>
       </div>
     </div>
     <script src="src/app.js"></script>
