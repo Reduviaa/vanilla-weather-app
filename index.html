@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/weather-icons.css" />
+    <link rel="stylesheet" href="src/style.css" />
+
+    <title>Weather app</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-app">
+        <div class="row">
+          <div class="col">
+            <h1>London</h1>
+            <ul>
+              <li id="day">Wednesday <span id="time">05:20</span></li>
+              <li>
+                Humidity: <span id="humidity">84</span>%, Wind:
+                <span id="wind">2.05</span>km/h
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <div>
+              <i class="wi wi-day-cloudy display-6"></i>
+              <span>19°C|°F</span>
+              <div>Feels like: <span id="feels-like">19</span>°C</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>
