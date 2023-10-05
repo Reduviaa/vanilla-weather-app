@@ -11,7 +11,7 @@
     />
     <link rel="stylesheet" href="css/weather-icons.css" />
     <link rel="stylesheet" href="src/style.css" />
-
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <title>Weather app</title>
   </head>
   <body>
@@ -19,7 +19,7 @@
       <div class="weather-app">
         <div class="row">
           <div class="col-8">
-            <h1>London</h1>
+            <h1 id="city"></h1>
             <ul>
               <li id="day">Wednesday <span id="time">05:20</span></li>
               <li>
@@ -31,8 +31,8 @@
           <div class="col-4">
             <div>
               <i class="wi wi-day-cloudy display-6" id="icon"></i>
-              <span id="temperature">19</span><span id="units">°C|°F</span>
-              <div class="sky">Cloudy</div>
+              <span id="temperature"></span><span id="units">°C|°F</span>
+              <div id="condition"></div>
             </div>
           </div>
         </div>
