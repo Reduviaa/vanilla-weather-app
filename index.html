@@ -11,6 +11,12 @@
     />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather app</title>
   </head>
   <body>
@@ -28,11 +34,7 @@
               />
             </div>
             <div class="col-2">
-              <input
-                type="submit"
-                value="search"
-                class="btn btn-primary w-100"
-              />
+              <input type="submit" value="Search" class="w-100" id="button" />
             </div>
           </div>
         </form>
@@ -41,8 +43,9 @@
             <h1 id="city"></h1>
             <ul>
               <li id="date"></li>
+              <br />
               <li>
-                Humidity: <span id="humidity"></span>%, Wind:
+                Humidity: <span id="humidity"></span>%, <br />Wind:
                 <span id="wind">2.05</span>km/h
               </li>
             </ul>
