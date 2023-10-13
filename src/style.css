@@ -22,7 +22,10 @@ li {
 }
 a {
   text-decoration: none;
-  color: #e08b8e;
+  color: #c97d7f;
+}
+small {
+  margin-left: 495px;
 }
 .weather-app {
   font-family: "Quicksand", sans-serif;
@@ -40,13 +43,14 @@ a {
 }
 .weather-forecast-date {
   font-size: 16px;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 .weather-forecast-temperature {
   font-size: 15px;
 }
 .weather-forecast-temperature-min {
-  opacity: 0.5;
+  font-size: 14px;
+  opacity: 0.6;
 }
 #condition {
   font-size: 20px;
